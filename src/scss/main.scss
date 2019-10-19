@@ -38,6 +38,7 @@ body {
   margin: 0;
   padding: 0;
   color: #E3B873;
+  background: url(../../assets/img/bg-main.png);
 }
 
 div {
@@ -518,7 +519,8 @@ header {
 
 .online-control{
   position: relative;
-  padding-bottom: 100px;  
+  padding-bottom: 100px;
+  background: #ffffff;
 }
 
 .online-control .sec {
@@ -656,6 +658,7 @@ header {
 
 .types-of-repair {  
   padding-bottom: 70px;
+  background: #ffffff;
 }
 
 .types-of-repair .p-container h3 {
@@ -744,7 +747,8 @@ header {
 }
 //circle-block
 .circle-block {
-  margin-bottom: 200px;
+  padding-bottom: 200px;
+  background: #ffffff;
 }
 
 .circle-block__wrapper {
@@ -912,8 +916,7 @@ header {
 //fantasies-block
 
 .fantasies-block {
-  position: relative;
-  margin-bottom: 150px;  
+  position: relative;   
   background: #131313;
   background: url('../../assets/img/bg-fantasies.png');
 }
@@ -1007,6 +1010,7 @@ header {
 .fantasies-block__item2 {
   min-height: 350px;
   background: url('../../assets/img/fantasies-img2.png');
+  z-index: 20;
 }
 
 .fantasies-block__item3 {
@@ -1021,8 +1025,10 @@ header {
 
 // design project
 .design-project {
-  position: relative;  
+  position: relative; 
+  padding-top: 150px; 
   padding-bottom: 70px;
+  background: #ffffff;
 }
 
 .design-project .p-container h3 {
@@ -1219,6 +1225,7 @@ header {
 .our-team {
   position: relative;
   padding-bottom: 100px;
+  background: #ffffff;
 }
 
 .our-team .sec1 {
@@ -1327,6 +1334,7 @@ header {
 .our-clients {
   position: relative;
   padding-bottom: 100px;
+  background: #ffffff;
 }
 
 .our-clients__item {
@@ -1631,7 +1639,7 @@ header {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 150px;
+  height: 230px;
 }
 
 //footer
